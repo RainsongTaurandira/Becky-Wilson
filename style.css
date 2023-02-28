@@ -9,7 +9,18 @@
 
 h1, h2, h3 {
     color: #184A8F;
-}
+    /* color: #07162c;*/
+} 
+h1 {
+    color: #0f2d57;
+    color: #07162c;
+    color: #004d00;
+    color: #003300;
+    color: #ffff00;
+    color: #fff200;
+    filter: drop-shadow(4px 3px 4px #07162c);
+    /* filter: drop-shadow(4px 3px 4px #ffff00);*/
+} 
 /* ------ header section  ----- */
 header {
     position: relative;
@@ -40,6 +51,7 @@ h2 {
     top: 0;
     bottom: 0; 
     z-index: -5;
+    /* opacity: .75; */
 }
 
 #header__flowers {
