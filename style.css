@@ -9,17 +9,12 @@
 
 h1, h2, h3 {
     color: #184A8F;
-    /* color: #07162c;*/
+    font-weight: 400;
 } 
 h1 {
-    color: #0f2d57;
-    color: #07162c;
-    color: #004d00;
-    color: #003300;
-    color: #ffff00;
-    color: #fff200;
+    color: #DBBF0F;
     filter: drop-shadow(4px 3px 4px #07162c);
-    /* filter: drop-shadow(4px 3px 4px #ffff00);*/
+    font-size: 4rem;
 } 
 /* ------ header section  ----- */
 header {
@@ -35,9 +30,7 @@ h1, h2 {
     padding-left: 50px;
     padding-top: 30px;
 }
-h1 {
-    font-size: 4rem;
-}
+
 h2 {
     margin-left: 50px;
     margin-top: 50px;
@@ -47,11 +40,8 @@ h2 {
     position: absolute;
     width: 100%;
     left: 0;
-    right: 0;
     top: 0;
-    bottom: 0; 
     z-index: -5;
-    /* opacity: .75; */
 }
 
 #header__flowers {
@@ -84,7 +74,6 @@ main img {
 
 h3 {
     font-size: 2rem;
-    font-weight: 400;
 }
 
 p {
