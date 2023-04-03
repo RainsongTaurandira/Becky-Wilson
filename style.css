@@ -125,7 +125,8 @@ footer {
     }
     main img {
         padding: 10px;
-        width: 97%;
+        width: 76%;
+        /* was 97% */
     }
     footer {
         padding: 10px;
